@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / 工具
+.idea/
+.vscode/
+*.iml
+.claude/
+
+# 本地临时文件
+query
+
+# 见各子项目 FrontEnd/.gitignore 与 BackEnd/.gitignore

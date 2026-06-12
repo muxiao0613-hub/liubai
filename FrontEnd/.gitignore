@@ -1,0 +1,49 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+
+# 地图 GeoJSON（运行时下载，体积大，不入库）
+# 部署时执行：node scripts/download-geo.mjs
+public/geo/
+
+# Electron 打包输出（安装包体积大，不入库）
+release/
+
+# 图标等构建资源（二进制文件，不入库）
+build-resources/
+
+# 环境变量（含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript 增量编译缓存
+*.tsbuildinfo
+
+# Vite 缓存
+.vite/
